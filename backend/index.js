@@ -53,10 +53,9 @@ app.post("/newOrder", async (req,res)=> {
   res.send("Order Saved !");
 })
 
-// ---- Yahan se naya code (serve karne ke liye) ----
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
-app.get("*", (req, res) => {
+app.use((req, res) => {
     res.sendFile(path.join(__dirname, "../frontend/dist", "index.html"));
 });
 
