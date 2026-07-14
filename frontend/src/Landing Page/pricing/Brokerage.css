@@ -1,0 +1,15 @@
+.custom-banner {
+    background-color: #f6fafd !important;
+    border-left-color: #387ed1 !important;
+    color: #424242 !important;
+    border-radius: 2px;
+}
+
+.table-body {
+     font-size: 14px;
+}
+
+.table-body td {
+    color: #424242;
+    padding: 12px 15px !important;
+}

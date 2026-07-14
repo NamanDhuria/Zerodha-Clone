@@ -1,0 +1,18 @@
+.content h4 {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    font-weight: 400;
+
+}
+
+.content p {
+    font-size: 12px;
+     margin: 12px 0px 15px;
+     color: #424242;
+}
+
+.content ul {
+    font-size: 12px;
+     margin: 12px 0px 15px;
+     color: #424242;
+}

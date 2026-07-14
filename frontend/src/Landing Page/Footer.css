@@ -1,0 +1,27 @@
+.footlink a {
+    text-decoration: none;
+    color: #6c757d;
+     display: block;
+    margin-bottom: 10px;
+}
+
+.footlink a {
+    
+}
+
+.bottomfootlink a {
+    font-size: small;
+    font-weight: 600;
+    margin-left:1.5rem;
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.2s ease;
+}
+
+.footlink a:hover{
+    color: rgb(88, 88, 255);
+}
+
+.bottomfootlink a:hover {
+      color: rgb(88, 88, 255);
+}
